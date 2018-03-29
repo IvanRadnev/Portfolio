@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/component.css"> 
+	<link rel="stylesheet" href="css/animated-bg.css"> 
+	<script src="js/modernizr.js"></script>
+  	
+	<title>Ivan Radnev Portfolio</title>
+</head>
+<body>
+	<header class="cd-header">
+	<div class="cd-logo"><a href="file:///D:/Development/Portfolio/index.html#0"><img src="D:\Development\Portfolio\img\home.png" alt="Logo"></a></div>
+		<a class="cd-primary-nav-trigger" href="#0">
+			<span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+		</a> 
+	</header>
+
+	<nav>
+		<ul class="cd-primary-nav">
+			<li class="cd-label">Who Am I</li>
+			<li><a href="file:///D:/Development/Portfolio/about.html">About Me</a></li>
+			<li class="cd-label">Contact</li>
+			<li><a href="file:///D:/Development/Portfolio/contact.html">Contact Me</a></li>
+			<li class="cd-label">Follow Me</li>
+			<li class="cd-social cd-facebook"><a href="https://www.facebook.com/vAnk0oy">Facebook</a></li>
+			<li class="cd-social cd-instagram"><a href="https://www.instagram.com/ivanradnev/">Instagram</a></li>
+			<li class="cd-social cd-twitter"><a href="https://twitter.com/IvanRadnev?lang=en">Twitter</a></li>
+		</ul>
+	</nav>
+
+				
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<h1 class="main-title">Contact <i>Me</i></span></h1>
+				</div>
+
+	<section class="cd-intro-about">
+		<h1><a href="#more"><img src="http://cdn.onnoschwanen.com/images/ui/arrow-down.svg"/></a></h1>
+	</section>
+
+	<main id="more" class="cd-main-content" style="margin-top: 8rem;">
+		<div class="cd-container">
+				<h4 style="color: rgb(212,175,55);">This is it!</h4>
+				<h1>Contact Me</h1>
+		</div>
+
+		<div class="cd-container-contact">
+			<div class="square-1">
+				<hr style="margin-left: 2rem; margin-top: 2rem; width: 2rem; height: 4px; background-color: white; ">
+				<h2>Sofia, Sofia City, Bulgaria</h2>
+			</div>
+			<div class="square-2">
+			</div>
+			<div class="square-3">
+				<p>If you liked my modest web site, my methods of work and would like to join your team, please contact me in any of these ways. It will be my honor to work together.</p>
+			</div>
+			<div class="square-4">
+				<hr style="margin-left: 2rem; margin-top: 2rem; width: 2rem; height: 4px; background-color: white; ">
+				<h2>+359 (0) 883 488 040</h2>
+			</div>
+		</div>
+				
+			<div class="cd-container">		
+				<a href="mailto:i.radnev92@gmail.com"><div class="read-more-btn">Shot me an Email</div></a>
+			</div>
+		<div class="footer">
+			<div class="footer-content">
+					<div class="footer-clmn1">© 2017 Designed and Developed by <a href="https://www.linkedin.com/in/ivan-radnev-3b63b2b6/">Ivan Radnev</a></div>
+					<div class="footer-clmn2">Email: <a href="mailto:i.radnev92@gmail.com">i.radnev92@gmail.com</a></div>
+			</div>
+		</div>
+		
+	</main>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> 
+
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/demo-1.js"></script>
+
+
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>

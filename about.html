@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/component.css"> 
+	<link rel="stylesheet" href="css/animated-bg.css"> 
+	<script src="js/modernizr.js"></script>
+  	
+	<title>Ivan Radnev Portfolio</title>
+</head>
+<body>
+	<header class="cd-header">
+	<div class="cd-logo"><a href="index.html"><img src="img\home.png" alt="Logo"></a></div>
+		<a class="cd-primary-nav-trigger" href="#0">
+			<span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+		</a> 
+	</header>
+
+	<nav>
+		<ul class="cd-primary-nav">
+			<li class="cd-label">Who Am I</li>
+			<li><a href="about.html">About Me</a></li>
+			<li class="cd-label">Contact</li>
+			<li><a href="contact.html">Contact Me</a></li>
+			<li class="cd-label">Follow Me</li>
+			<li class="cd-social cd-facebook"><a href="https://www.facebook.com/vAnk0oy">Facebook</a></li>
+			<li class="cd-social cd-instagram"><a href="https://www.instagram.com/ivanradnev/">Instagram</a></li>
+			<li class="cd-social cd-twitter"><a href="https://twitter.com/IvanRadnev?lang=en">Twitter</a></li>
+		</ul>
+	</nav>
+
+				
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<h1 class="main-title">About <i>Me</i></span></h1>
+				</div>
+
+<section class="cd-intro-about">
+		<h1><a href="#more"><img src="http://cdn.onnoschwanen.com/images/ui/arrow-down.svg"/></a></h1>
+	</section>
+
+	<main class="cd-main-content-about">
+		<div id="more" class="cd-container" style="margin-bottom: 0px;">
+			<div class="cd-container-txt">
+				<p>
+					Hello ! My name is Ivan Radnev , and I am Sofia based <i>junior web developer.</i> I am working remotely on projects for clients all over the world. have a diverse set of skills, ranging from design , HTML , CSS+ Javascript , all the way to PHP 
+				</p>
+			</div>
+		</div>
+	
+
+
+
+			<div class="cd-main-services">
+				<div class="cd-main-content-services-img">
+					<img src="img\Custom-Web-Development.png">					
+				</div>
+				<div class="cd-main-content-services-txt">
+						<h1>Skills</h1>
+						
+					<div class="cd-main-content-services-txt-clmn">
+						<div class="cd-main-content-services-txt-clmn-1">
+							<p><img src="D:\Development\Portfolio\img\icons\image006.png" alt="HTML5">  HTML5 <br>
+							   <img src="D:\Development\Portfolio\img\icons\image007.png" alt="CSS3">  CSS3 <br>
+							   <img src="D:\Development\Portfolio\img\icons\image008.png" alt="JavaScript">  JavaScript <br>
+							   <img src="D:\Development\Portfolio\img\icons\image009.png" alt="jQuery">  jQuery <br>
+							   <img src="D:\Development\Portfolio\img\icons\bootstrap-logo-150x150.png" alt="Bootstrap">  Bootstrap <br>
+						</div>
+						<div class="cd-main-content-services-txt-clmn-2">
+							<p><img src="D:\Development\Portfolio\img\icons\image014.png" alt="PHP">  PHP <br>
+							   <img src="D:\Development\Portfolio\img\icons\logo-mysql-170x115.png" alt="MySQL">  MySQL <br>
+							   <img src="D:\Development\Portfolio\img\icons\ajax-icon.png" alt="Ajax">  Ajax <br>
+							   <img src="D:\Development\Portfolio\img\icons\image010.png" alt="Angular.js">  Angular.js <br>
+							   <img src="D:\Development\Portfolio\img\icons\image013.png" alt="WordPress">  WordPress <br>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+				
+
+		<div class="footer">
+			<div class="footer-content">
+					<div class="footer-clmn1">© 2017 Designed and Developed by <a href="https://www.linkedin.com/in/ivan-radnev-3b63b2b6/">Ivan Radnev</a></div>
+					<div class="footer-clmn2">Email: <a href="mailto:iradven@iradnev.eu">hello@iradnev.com</a></div>
+			</div>
+		</div>
+		
+	</main>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> 
+
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/demo-1.js"></script>
+
+
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>
